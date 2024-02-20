@@ -22,7 +22,7 @@ function Home() {
           <main className='min-h-screen w-full flex items-center flex-col gap-7 p-5'>
             <h1 className='font-bold text-xl'>Bienvenido MELBA!</h1>
             <div className='flex justify-evenly w-screen h-full'>
-              {
+            {
                 accounts.map( account => <Accounts key={account.id} number={account.number} amount={account.balance} creationDate={account.creationDate}/>)
               }
             </div>
