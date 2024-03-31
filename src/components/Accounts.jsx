@@ -4,11 +4,11 @@ import PropTypes from 'prop-types'
 function Accounts( props ) {
   return (
     <a href=''>
-      <div className='bg-blue-400 text-2xl p-5 flex flex-col font-bold gap-3'>
-        <p>Account number: VIN-0000{props.number}</p>
-        <p>Amount: </p>
-        <p className='flex justify-center'>{props.amount}</p>
-        <p>Creation date: {props.creationDate}</p>
+      <div className='bg-white rounded-xl shadow-md p-5 flex flex-col gap-3'>
+        <p className='text-xl font-bold'>Account number: {props.number}</p>
+        <p className='text-xl font-bold'>Amount:</p>
+        <p className='text-xl font-bold text-right text-green-700'>${props.amount}</p>
+        <p className='text-xl font-bold'>Creation date: {props.creationDate}</p>
       </div>
     </a>  
   )

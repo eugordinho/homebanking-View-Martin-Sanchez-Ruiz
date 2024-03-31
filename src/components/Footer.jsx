@@ -3,21 +3,21 @@ import React from 'react'
 
 export const Footer = () => {
     return (
-        <footer className='font-bold p-5 bg-blue-400 flex justify-center justify-evenly'>
-            <p className=''>All Rights reserved - 2024</p>
+        <footer className='font-bold p-5 bg-blue-400 flex justify-center justify-evenly w-full'>
+            <p className=''>© 2024 ByteBank S.A. - All rights reserved.</p>
 
-            <div>
-                <div>
-                    <img src="" alt="" />
-                    <a href="instagram.com">Instagram</a>
+            <div className='flex flex-col gap-3'>
+                <div className='flex gap-3'>
+                    <img src="instagram.png" alt="" className='w-6'/>
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
                 </div>
-                <div>
-                    <img src="" alt="" />
-                    <a href="Twitter.com">Twitter</a>
+                <div className='flex gap-3'>
+                    <img src="gorjeo.png" alt="" className='w-6'/>
+                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
                 </div>
-                <div>
-                    <img src="" alt="" />
-                    <a href="Facebook.com">Facebook</a>
+                <div className='flex gap-3'>
+                    <img src="facebook.png" alt="" className='w-6'/>
+                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
                 </div>
             </div>
         </footer>

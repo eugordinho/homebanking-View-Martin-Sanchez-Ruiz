@@ -3,10 +3,10 @@ export const LINKS_NAV = [
     href: "/",
     name: "Home"
 },
-/* {
-    href: "/clients",
-    name: "Clients"
-}, */
+{
+    href: "/accounts",
+    name: "Accounts"
+}, 
 {
     href: "/cards",
     name: "Cards"
@@ -14,5 +14,9 @@ export const LINKS_NAV = [
 {
     href: "/loans",
     name: "Loans"
+},
+{
+    href: "/transaction",
+    name: "Transactions"
 }
 ]

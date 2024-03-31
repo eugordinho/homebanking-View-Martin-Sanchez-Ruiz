@@ -2,13 +2,14 @@ import React from 'react'
 import { Header } from '../components/Header'
 import { Footer } from '../components/Footer'
 
-export const MainLayout = () => {
+function MainLayout(props) {
     return (
-        <>
-            <Header />
-            
-            <Footer />
-        
-        </>
+        <div className="bg-[#1F2937]">
+            <Header/>
+                {props.children}
+            <Footer/>
+        </div>
     )
 }
+
+export default MainLayout
